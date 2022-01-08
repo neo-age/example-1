@@ -1,0 +1,82 @@
+.contact {
+    background: white;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 6%);
+    border-radius: 15px;
+    height: 64%;
+    overflow: hidden;
+}
+.conatact_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px;
+}
+.contacts_container {
+    overflow: scroll;
+    height: 100%;
+    margin: 0 20px 0 20px;
+    overflow-x: hidden;
+}
+.contacts_container::-webkit-scrollbar{
+    width: 7px;
+}
+.contacts_container::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+.contacts_container::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background: #3866ff;
+  }
+.contacts_container::-webkit-scrollbar-thumb:hover {
+    background: #0836ccc6;
+}
+h2.contact_header {
+    color: #376af8;
+    margin: 20px 0px 20px 20px;
+}
+.contact_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 20px 0;
+}
+.contact_img_status {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+.contact_status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    border: solid 3px white;
+}
+.contact_status.unactive{
+    background: #cfcfcf;
+}
+.contact_status.active{
+    background: #10f92d;
+}
+img.contact_img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.contact_call_talk {
+    width: 15%;
+    color: #376af8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact_talk,.contact_call{
+    cursor: pointer;
+}
+.contact_talk:hover,.contact_call:hover{
+    color: #376bf8c6;
+}

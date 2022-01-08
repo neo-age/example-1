@@ -1,0 +1,102 @@
+.navbar {
+    height: 7%;
+    width: 100%;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 6%);
+    background: white;
+    border-radius: 15px;
+    z-index: 999;
+    margin: 0 0 20px 0;
+}
+.navbar-wrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navmiddle {
+    width: 20vw;
+}
+ul.navmenulink {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 500;
+}
+li.navmenuitem {
+    cursor: pointer;
+    transition: 400ms;
+}
+li.navmenuitem:hover{
+    color: #9b9b9b;
+}
+a.active{
+    color: #9b9b9b;
+}
+.navright {
+    width: 12vw;
+    display: flex;
+    justify-content: space-between;
+}
+button.signup {
+    color: white;
+    background: linear-gradient( 318deg, #0054d3, #589bff);
+    border: none;
+    width: 64%;
+    height: 25px;
+    border-radius: 11px;
+    background-size: 400% 400%;
+    -webkit-animation: signup_button_animation 3s ease-in-out infinite;
+    -moz-animation: signup_button_animation 3s ease-in-out infinite;
+    -o-animation: signup_button_animation 3s ease-in-out infinite;
+    animation: signup_button_animation 3s ease-in-out infinite;
+    position: relative;
+    z-index: 1;
+    animation-play-state: paused;
+    cursor: pointer;
+}
+button.signup:hover {
+    animation-play-state: running;
+
+}
+@-webkit-keyframes signup_button_animation {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 20%}
+}
+@-moz-keyframes signup_button_animation {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 20%}
+}
+@-o-keyframes signup_button_animation {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 20%}
+}
+@keyframes signup_button_animation {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 20%}
+}
+button.signin {
+    background: #ffffff00;
+    color: #0066FF;
+    font-weight: 500;
+    width: 47%;
+    margin: 0px 8px 0px 0px;
+    height: 25px;
+    padding: 0px 6px 0px 6px;
+    border-radius: 11px;
+    border: 2px solid #0066FF;
+    transition: 400ms;
+    cursor: pointer;
+}
+button.signin:hover{
+    background: linear-gradient( 318deg, #0054d3, #589bff);
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}

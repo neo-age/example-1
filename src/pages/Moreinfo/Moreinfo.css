@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.moreinfo {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 
+129deg, #3485ff, #002d70);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 6%);
+}
+.moreinfo_wrapper {
+    width: inherit;
+    height: inherit;
+    display: flex;
+}
+.moreinfo_leftside {
+    height: inherit;
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moreinfo_leftside_content {
+    width: 91%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+img.moreinfo_leftside_img {
+    width: 60px;
+    height: 60px;
+}
+.stack_tech {
+    height: fit-content;
+    width: 100%;
+    color: white;
+}
+svg.stach_tech_icon {
+    width: 44px;
+    height: 44px;
+    margin: 7px;
+}
+p.moreinfo_leftside_paragraph {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.moreinfo_rightside {
+    height: inherit;
+    flex: 2.5 1;
+    background: white;
+    border-radius: 15px;
+    padding: 0px 10px 0px 10px;
+}
+.projectinfohp{
+    color: white;
+}
+.projectinfohp h5 {
+    color: inherit;
+    margin: 10px 0px 10px 0px;
+}
+ul.moreinfo_rightside_ul {
+    list-style: none;
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+li.moreinfo_rightside_ul_li {
+    width: inherit;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.leftside_ul_li {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+.rightside_ul_li {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+.moreinfo_leftside_li_paragraph {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #959595;
+}
+img.moreinfo_ul_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(5px 5px 8px #d1d1d1);
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ffffff00;
+    margin: 14px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background: #3866ff;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0836ccc6;
+  }
