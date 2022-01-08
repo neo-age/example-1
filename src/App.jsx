@@ -24,7 +24,7 @@ function App() {
                     <Navbar />
                 <div className="main_content_container">
                     <Routes>
-                        <Route exact path='/' element={<Home />}/>
+                        <Route exact path='/example-1' element={<Home />}/>
                         <Route exact path='/Moreinfo' element={<Moreinfo />}/>
                     </Routes>
                 </div>
