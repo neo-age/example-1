@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/example-1/static/css/main.89a47b10.chunk.css",
-    "main.js": "/example-1/static/js/main.539a6de9.chunk.js",
-    "main.js.map": "/example-1/static/js/main.539a6de9.chunk.js.map",
+    "main.js": "/example-1/static/js/main.703a42cc.chunk.js",
+    "main.js.map": "/example-1/static/js/main.703a42cc.chunk.js.map",
     "runtime-main.js": "/example-1/static/js/runtime-main.c40504b7.js",
     "runtime-main.js.map": "/example-1/static/js/runtime-main.c40504b7.js.map",
     "static/css/2.a1596f27.chunk.css": "/example-1/static/css/2.a1596f27.chunk.css",
@@ -18,14 +18,14 @@
     "static/media/Group 37.9ea572c6.png": "/example-1/static/media/Group 37.9ea572c6.png",
     "static/media/Group 39.6e899466.png": "/example-1/static/media/Group 39.6e899466.png",
     "static/media/logo.7f2f5248.svg": "/example-1/static/media/logo.7f2f5248.svg",
-    "static/media/zdlogo-black.7402532d.svg": "/example-1/static/media/zdlogo-black.7402532d.svg",
-    "static/media/zdlogo-white.f9a6efa7.svg": "/example-1/static/media/zdlogo-white.f9a6efa7.svg"
+    "static/media/zdlogo-black.d40c5cce.svg": "/example-1/static/media/zdlogo-black.d40c5cce.svg",
+    "static/media/zdlogo-white.1b7d6d99.svg": "/example-1/static/media/zdlogo-white.1b7d6d99.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c40504b7.js",
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.17557e9f.chunk.js",
     "static/css/main.89a47b10.chunk.css",
-    "static/js/main.539a6de9.chunk.js"
+    "static/js/main.703a42cc.chunk.js"
   ]
 }
